@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <body>
+    <h2 style="text-align: center; font-family: 'Times New Roman', Times, serif;" >Fill Form for Details</h2>
+     <form style="font-size: larger; font-family: 'Times New Roman', Times, serif; padding:0px; 
+                  background-color: lightsteelblue; width:400px; margin-left: 450px; ">
+    <fieldset>
+    <legend><h4>Information</h4></legend>
+     
+    <lable>Full Name</lable><br>
+     <input type="text" placeholder="Full name*"><br>
+     
+     <lable>Email</lable><br>
+     <input type="email" placeholder="Email*"><br>
+     
+     <lable>Mobile No.</lable><br>
+     <input type="tel" placeholder="Mobile No.*"pattern="[0-9]{10}"><br>
+     
+     <lable>Password</lable><br>
+     <input type="password" placeholder="Password*"><br>
+     
+     <label>Date of Birth</label><br>
+     <input type="date" id="datemin" name="datemin" min="1980-01-01" max="2080-01-01"><br>
+     
+     <label>Select Gender</label><br>
+     <input type="radio" name="gender">Male<br>
+     <input type="radio" name="gender">Female<br>
+     
+     <label>Attached Documents</label><br>
+     <input type="checkbox">10<sup>th</sup><br>
+     <input type="checkbox">12<sup>th</sup><br>
+     <input type="checkbox">Graduation<br>
+     <input type="checkbox">Post-Graduation<br>
+
+     <label>Select State</label><br>
+     <select>
+         <option> </option>
+         <option>Andaman and Nicobar Islands</option>
+         <option>Andhra Pradesh</option>
+         <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        <option>Bihar</option>
+        <option>Chandigarh</option>
+        <option>Chhattisgarh</option>
+        <option>Dadra and Nagar Haveli</option>
+        <option>Daman and Diu</option>
+        <option>Delhi</option>
+        <option>Goa</option>
+        <option>Gujarat</option>
+        <option>Haryana</option>
+        <option>Himachal Pradesh</option>
+        <option>Jammu and Kashmir</option>
+        <option>Jharkhand</option>
+        <option>Karnataka</option>
+        <option>Kerala</option>
+        <option>Lakshadweep</option>
+        <option>Madhya Pradesh</option>
+        <option>Maharashtra</option>
+        <option>Manipur</option>
+        <option>Meghalaya</option>
+        <option>Mizoram</option>
+        <option>Nagaland</option>
+        <option>Odisha</option>
+        <option>Puducherry</option>
+        <option>Punjab</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>Tamil Nadu</option>
+        <option>Telangana</option>
+        <option>Tripura</option>
+        <option>Uttar Pradesh</option>
+        <option>Uttarakhand</option>
+        <option>West Bengal</option> 
+     </select><br>
+     
+     <label>Enter City</label><br>
+     <input list="city">
+     <datalist id="city">
+     <option>Mumbai</option>
+     <option>Pune</option>
+     <option>Amravati</option>
+     <option>Nagpur</option>
+     <option>Akola</option> 
+     </datalist><br>
+     
+     <label>Upload You Resume</label><br>
+     <input type="file"><br> <br>
+     <input type="submit" value="Submit" style="margin-left: 100px;">
+     <a href="resume.html">
+    <input type="button" value="Back" style="margin-left: 150;">
+     </fieldset>
+
+    </form>  
+    </body>
+</html>
